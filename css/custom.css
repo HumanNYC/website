@@ -1,0 +1,224 @@
+/* General */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: url(../img/nyc-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5 {
+	color: #0230A3;
+	font-family: 'Libre Franklin', sans-serif;
+}
+h1 {}
+h2 {}
+h3, h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+}
+h3 {
+	margin: 0.6rem 0 2rem 0;
+}
+h4 {
+    margin: 0.6rem 0;
+}
+p {
+	font-size: 15px;
+	line-height: 1.6;
+	color: #777777;
+}
+a {
+	color: #0230A3;
+	display: block;
+    height: 1.6em;
+    width: fit-content;
+    border-bottom: 1px solid;
+}
+a:hover {
+	text-decoration: none;
+}
+/* Cover */
+.logo {
+	display: block;
+    height: 100%;
+    width: 156px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../img/humanNycLogo.png) no-repeat center 32%;
+    background-size: 100%;
+}
+.coverTitle {
+	margin-top: 62px;
+}
+#quote {
+	height: 70%;
+    display: flex;
+    margin: auto;
+}
+#quote p {
+	margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #002277;
+}
+/* path */
+.path {
+	padding-top: 62px;
+    height: 642px;
+    position: relative;
+    display: block;
+}
+circle:hover {
+	stroke-width: 4px;
+	stroke: #0230A3;
+	cursor: pointer;
+}
+.pathSlim {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 654px;
+    padding: 0 7px;
+}
+/* Top-bar */
+.topbar {
+	margin: 1em 0 2em 0;
+}
+.topbar a{
+	float: right;
+}
+.topbar .col {
+    border-bottom: 1px solid #707070;
+}
+/* Nav */
+.nav-tabs {
+    border-bottom: 2px solid transparent;
+}
+.nav-link {
+    display: block;
+    padding: 0.6rem 0 1rem 0;
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.nav-modal-link {
+	border-radius: 0;
+    padding: 12px 0 6px;
+}
+
+.nav-tabs .nav-link.active, .nav-modal-link, 
+.nav-tabs a.nav-link:visited, .nav-modal-link:visited, 
+.nav-tabs a.nav-link:focus, .nav-modal-link:focus {
+    color: #0230a3;
+    border-color: transparent;
+    border-bottom: 2px solid #0230a3;
+    text-decoration: none;
+}
+.nav-tabs a.nav-link:hover, .nav-modal-link:hover{
+	border-color: transparent;
+	border-bottom: 2px solid #0230a3;
+	text-decoration: none;
+}
+
+/* content */
+.step {
+	height: 83vh;
+    margin: 2.5rem 1.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    overflow: hidden;
+    background: #ffffff;
+    min-height: 780px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 100%;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: transparent;
+}
+.card-header {
+    padding: .75rem 0 .75rem 2em;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+.card-header h5 {
+	display: list-item;
+    list-style-image: url('../img/list-symbol.png');
+}
+.card-header h5 .btn {
+	white-space: unset;
+	text-align: left;
+	padding: 0;
+	color: #000000;
+}
+.card-body {
+    padding: 0 0 1.25rem 2rem;
+}
+.scroll {
+	max-height: 550px;
+    overflow: scroll;
+}
+.cover {
+	display: block;
+	width: 100%;
+	min-height: 100vh;
+}
+#exampleModal {
+	padding-right: 0 !important;
+	background: #EBF1FF;
+}
+.modal-dialog {
+	max-width: 100%;
+    margin: 0;
+}
+#exampleModal .modal-content {
+	background: none;
+	border: none;
+}
+h3.huge {
+	font-size: 2.5em;
+}
+.highlight {
+	color: #0230A3;
+}
+.highlight.huge {
+	font-size: 1.5em;
+}
+.readMore {
+	position: absolute;
+    width: 95%;
+    background: aliceblue;
+    height: 83vh;
+    margin: 0 1.5rem;
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+.readMoreClose {
+	position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+ 	top: 0;
+ 	height: 100vh;
+}
+text.graphText {
+	font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
