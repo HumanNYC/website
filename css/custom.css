@@ -32,15 +32,20 @@ p {
 	line-height: 1.6;
 	color: #777777;
 }
-a {
+/*a {
 	color: #0230A3;
 	display: block;
     height: 1.6em;
     width: fit-content;
     border-bottom: 1px solid;
-}
+}*/
 a:hover {
 	text-decoration: none;
+}
+@media (min-width: 1460px) {
+  .container-fluid {
+    max-width: 1400px;
+  }
 }
 /* Cover */
 .logo {
@@ -100,13 +105,13 @@ circle:hover {
 .nav-tabs {
     border-bottom: 2px solid transparent;
 }
-.nav-link {
+/*.nav-link {
     display: block;
     padding: 0.6rem 0 1rem 0;
     margin-right: 2rem;
     font-size: 0.9rem;
     text-transform: uppercase;
-}
+}*/
 .nav-modal-link {
 	border-radius: 0;
     padding: 12px 0 6px;
@@ -129,12 +134,30 @@ circle:hover {
 /* content */
 .step {
 	height: 83vh;
-    margin: 2.5rem 1.5rem;
-    padding: 1rem 2rem;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
     overflow: hidden;
     background: #ffffff;
-    min-height: 780px;
+}
+@media (min-width: 767px) {
+    .step {
+        margin: 2.5rem 1.5rem;
+        padding: 1rem 2rem;
+    }
+    .scroll {
+        max-height: 550px;
+        overflow: scroll;
+    }
+}
+@media (min-width: 320px) {
+    .step {
+        margin: 2.5rem 0;
+        padding: 1rem 1rem;
+        height: auto;
+    }
+    .scroll {
+        height: auto;
+        overflow: show;
+    }
 }
 .card {
     position: relative;
@@ -165,10 +188,6 @@ circle:hover {
 }
 .card-body {
     padding: 0 0 1.25rem 2rem;
-}
-.scroll {
-	max-height: 550px;
-    overflow: scroll;
 }
 .cover {
 	display: block;

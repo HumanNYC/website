@@ -14,6 +14,44 @@
 	<body>
 	  	<div class="wrapper">
 	  		<div id="modalLearnMore"></div>
+	  		<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light d-md-none d-lg-none d-xl-none">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#">Human</a>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<li class="nav-item active">
+								<a class="nav-link" href="#step_one">Step 1 - Become Street Homeless</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_two">Step 2 - Sighting Process</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_three">Step 3 - 9 Months on street</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_four">Step 4 - Safe Haven Assignment</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_five">Step 5 - Gathering Documents</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_six">Step 6 - Housing Eligibility</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_seven">Step 7 - Searching for Housing</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#step_eight">Step 8 - Transition into Housing</a>
+							</li>
+							<div class="dropdown-divider"></div>
+							<li class="nav-item">
+								<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Learn more about us</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 	  		<!-- Modal --
 	  		<object data="learnmore.html"> 
 				Your browser doesn’t support the object tag. 
@@ -22,26 +60,28 @@
 	  			<div class="row">
 					<div class="col col-md-12">
 						<div class="cover">
-							<div class="row topbar">
-								<div class="col col-md-2 offset-md-1">
-									<h1 class="logo">Human NYC</h1>
-								</div>
-								<div class="col col-md-6">
-									<p><strong>Our team spent two years listening to homeless New Yorkers.</strong><br>This website aims to summarize our findings and push forward sensible reforms that we developed alongside our homeless neighbors.</p>
-								</div>
-								<div class="col col-md-2 text-right">
-									<button type="button" class="btn btn-link nav-modal-link" data-toggle="modal" data-target="#exampleModal">Learn more about us</button>
+							<div class="d-none d-md-block">
+								<div class="row topbar">
+									<div class="col col-2">
+										<h1 class="logo">Human NYC</h1>
+									</div>
+									<div class="col col-8">
+										<p><strong>Our team spent two years listening to homeless New Yorkers.</strong><br>This website aims to summarize our findings and push forward sensible reforms that we developed alongside our homeless neighbors.</p>
+									</div>
+									<div class="col col-2 text-right">
+										<button type="button" class="btn btn-link nav-modal-link" data-toggle="modal" data-target="#exampleModal">Learn more about us</button>
+									</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col col-md-4 offset-md-1 text-center">
+								<div class="col-sm-12 col-md-4 text-center">
 									<h2 class="coverTitle">New York City&apos;s<br> Street-to-Home Journey</h2>
 									<div id="quote">
 										<p>Click to explore a specific point<br/>
 										Scroll down to start at the beginning</p>
 									</div>
 								</div>
-								<div class="col col-md-6">
+								<div class="col-sm-12 col-md-8 d-none d-md-block">
 									<div class="path">
 										<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: visible;">
 										    <desc>Human.nyc path</desc>
@@ -126,7 +166,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col col-md-11">
+					<div class="col-xs-12 col-sm-12 col-md-11">
 						<div class="stepWrapper">
 							<div class="readMore" id="step1ReadMore">
 								<!--read more window is gonna appear here -->
@@ -134,10 +174,10 @@
 							<div class="content step" id="step_one">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step One</h4></div>
+										<div class="col-12"><h4>Step One</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Become Street Homeless</h2>
 											<p>Sleeping on the streets rather than the shelters is often a rational choice that people make</p>
 											<hr>
@@ -154,10 +194,10 @@
 							<div class="content step" id="step_two">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Two</h4></div>
+										<div class="col-12"><h4>Step Two</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Sighting Process</h2>
 											<p>NYC mandates people be "sighted" three times, in their sleep spot, at random, before being offered a case manager</p>
 											<hr>
@@ -174,10 +214,10 @@
 							<div class="content step" id="step_three">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Three</h4></div>
+										<div class="col-12"><h4>Step Three</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>9 Months on street</h2>
 											<p>NYC mandates people live outside for nine months before they can be placed into transitional or permanent housing</p>
 											<hr>
@@ -194,10 +234,10 @@
 							<div class="content step" id="step_four">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Four</h4></div>
+										<div class="col-12"><h4>Step Four</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Safe Haven Assignment</h2>
 											<p>Many street homeless New Yorkers eventually move into a safe haven, generally considered a better option than traditional shelters</p>
 											<hr>
@@ -214,10 +254,10 @@
 							<div class="content step" id="step_five">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Five</h4></div>
+										<div class="col col-12"><h4>Step Five</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Gathering Documents</h2>
 											<p>Securing necessary identification can add months to an already lengthy and bureaucratic process</p>
 											<hr>
@@ -234,10 +274,10 @@
 							<div class="content step" id="step_six">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Six</h4></div>
+										<div class="col-12"><h4>Step Six</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Housing Eligibility</h2>
 											<p>With a scarce supply of housing, New York rations its supportive housing for those who they deem "most vulnerable"</p>
 											<hr>
@@ -254,10 +294,10 @@
 							<div class="content step" id="step_seven">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Seven</h4></div>
+										<div class="col-12"><h4>Step Seven</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Searching for Housing</h2>
 											<p>Contrary to the city’s rhetoric, street homeless people want to move into housing, but the demand far exceeds the supply</p>
 											<hr>
@@ -274,10 +314,10 @@
 							<div class="content step" id="step_eight">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col col-xs-12"><h4>Step Eight</h4></div>
+										<div class="col-12"><h4>Step Eight</h4></div>
 									</div>
 									<div class="row">
-										<div class="col col-xs-12">
+										<div class="col-12">
 											<h2>Transition into Housing</h2>
 											<p>Applying for and being accepted to housing does not guarantee a swift and timely move in</p>
 											<hr>
@@ -288,7 +328,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col col-md-1">
+					<div class="col-xs-12 col-sm-12 col-md-1 d-none d-sm-block">
 						<div class="sidebar" >
 							<!--<div class="sticky-anchor">
 								<img src="http://placehold.it/45x500">
@@ -302,14 +342,14 @@
 								            <path id="HumanPath" width="100%" height="100%" data-name="Human Path" class="vectorPath" d="M-767.986,1194s56,23.787,53.5,65.881-35.4,76.1-35.382,119.432,37.08,55.281,35.463,139.6-51.472,143.205-53.583,209.683,26.1,105.192,26.1,105.192" transform="translate(769.103 -1193.08)"/>
 								        </g>
 								    </g>
-									<a href="#step_one"><circle id="step1" cx="4" cy="12" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(0)"/></a>
-									<a href="#step_two"><circle id="step1" cx="45" cy="45" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(1)" /></a>
-									<a href="#step_three"><circle id="step3" cx="53" cy="80" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(2)"/></a>
-									<a href="#step_four"><circle id="step4" cx="20" cy="200" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(3)"/></a>
-									<a href="#step_five"><circle id="step5" cx="45" cy="270" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(4)"/></a>
-									<a href="#step_six"><circle id="step6" cx="55" cy="350" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(5)"/></a>
-									<a href="#step_seven"><circle id="step7" cx="1" cy="540" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(6)"/></a>
-									<a href="#step_eight">
+									<a href="#step_one" data-toggle="tooltip" data-placement="left" title="Become Street Homeless"><circle id="step1" cx="4" cy="12" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(0)"/></a>
+									<a href="#step_two" data-toggle="tooltip" data-placement="left" title="Sighting Process"><circle id="step1" cx="45" cy="45" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(1)" /></a>
+									<a href="#step_three" data-toggle="tooltip" data-placement="left" title="9 Months on street"><circle id="step3" cx="53" cy="80" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(2)"/></a>
+									<a href="#step_four" data-toggle="tooltip" data-placement="left" title="Safe Haven Assignment"><circle id="step4" cx="20" cy="200" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(3)"/></a>
+									<a href="#step_five" data-toggle="tooltip" data-placement="left" title="Gathering Documents"><circle id="step5" cx="45" cy="270" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(4)"/></a>
+									<a href="#step_six" data-toggle="tooltip" data-placement="left" title="Housing Eligibility"><circle id="step6" cx="55" cy="350" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(5)"/></a>
+									<a href="#step_seven" data-toggle="tooltip" data-placement="left" title="Searching for Housing"><circle id="step7" cx="1" cy="540" r="6" stroke="#707070" stroke-width="2" fill="white" onmouseover="StepOver(6)"/></a>
+									<a href="#step_eight" data-toggle="tooltip" data-placement="left" title="Transition into Housing">
 										<g id="Group_192" data-name="Group 192" transform="translate(-430 -22)" onmouseover="StepOver(7)">
 											<g id="Path_146" data-name="Path 146" class="cls-1" transform="translate(446.342 661.24)">
 												<path class="cls-2" d="M0,0H14.705l-1.62,14.705H1.806Z" fill="white"/>
@@ -329,11 +369,16 @@
 				</div>
 			</div>
 		</div>
-
 		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 
 		<script type="text/javascript">
+
+			$(function () {
+  				$('[data-toggle="tooltip"]').tooltip()
+			});
+
 			$('#step1ReadMore').hide();
 			$('#step2ReadMore').hide();
 			$('#step3ReadMore').hide();
@@ -354,6 +399,7 @@
 			$('#contentStep7').load('contentStep7.html');
 			$('#contentStep8').load('contentStep8.html');
 		</script>
+		
 		<!--<script type="text/javascript">
 			$(document).ready(function () {
 				$(function() {
