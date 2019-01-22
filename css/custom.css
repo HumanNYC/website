@@ -103,12 +103,11 @@ circle:hover {
 }
 .topbar {
 	margin: 1em 0 2em 0;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 1em;
 }
 .topbar a{
 	float: right;
-}
-.topbar .col {
-    border-bottom: 1px solid #707070;
 }
 /* Nav */
 .nav-tabs {
@@ -141,11 +140,41 @@ circle:hover {
 }
 
 /* content */
+.ourTeam {
+    font-size: 1em;
+    margin: 0;
+}
 .step {
 	height: 83vh;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
     overflow: hidden;
     background: #ffffff;
+}
+@media (min-width: 1280px) and (max-width: 1439px){
+    .mainPath {
+        margin-left: 0px;
+    }
+    .ourTeam {
+        display: block;
+        font-size: 1em;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+    .mainPath {
+        margin-left: -60px;
+    }
+    .ourTeam {
+        display: block;
+        font-size: .8em;
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+    .mainPath {
+        margin-left: -120px;
+    }
+    .ourTeam {
+        display: none;
+    }
 }
 @media (min-width: 767px) {
     .step {
