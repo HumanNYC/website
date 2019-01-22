@@ -51,11 +51,16 @@ a:hover {
 .logo {
 	display: block;
     height: 100%;
-    width: 156px;
     text-indent: -9999px;
     overflow: hidden;
     background: url(../img/humanNycLogo.png) no-repeat center 32%;
     background-size: 100%;
+}
+.logoWeb {
+    width: 156px;
+}
+.logoMobile {
+    width: 116px;
 }
 .coverTitle {
 	margin-top: 62px;
@@ -92,6 +97,10 @@ circle:hover {
     padding: 0 7px;
 }
 /* Top-bar */
+.bg-light {
+    background-color: #ffffff!important;
+    box-shadow: 0px 1px 7px rgba(0,0,0,.2);
+}
 .topbar {
 	margin: 1em 0 2em 0;
 }
