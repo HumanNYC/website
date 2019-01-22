@@ -150,6 +150,9 @@ circle:hover {
     overflow: hidden;
     background: #ffffff;
 }
+.stepWrapper {
+    position: relative;
+}
 @media (min-width: 1280px) and (max-width: 1439px){
     .mainPath {
         margin-left: 0px;
@@ -180,6 +183,7 @@ circle:hover {
     .step {
         margin: 2.5rem 1.5rem;
         padding: 1rem 2rem;
+        height: 83vh;
     }
     .scroll {
         max-height: 550px;
@@ -255,12 +259,12 @@ h3.huge {
 }
 .readMore {
 	position: absolute;
-    width: 95%;
+    width: 100%;
     background: aliceblue;
-    height: 83vh;
-    margin: 0 1.5rem;
+    height: 100%;
     padding: 1rem 2rem;
     z-index: 1;
+    overflow: scroll;
 }
 .readMoreClose {
 	position: absolute;
