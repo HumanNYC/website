@@ -154,6 +154,7 @@ circle:hover {
     position: relative;
 }
 @media (min-width: 1280px) and (max-width: 1439px){
+    .cover { min-height: 100vh; }
     .mainPath {
         margin-left: 0px;
     }
@@ -163,6 +164,7 @@ circle:hover {
     }
 }
 @media (min-width: 1024px) and (max-width: 1279px){
+    .cover { min-height: 100vh; }
     .mainPath {
         margin-left: -60px;
     }
@@ -172,6 +174,7 @@ circle:hover {
     }
 }
 @media (min-width: 767px) and (max-width: 1023px) {
+    .cover { min-height: 100vh; }
     .mainPath {
         margin-left: -120px;
     }
@@ -180,6 +183,7 @@ circle:hover {
     }
 }
 @media (min-width: 767px) {
+    .cover { min-height: 100vh; }
     .step {
         margin: 2.5rem 1.5rem;
         padding: 1rem 2rem;
@@ -190,7 +194,8 @@ circle:hover {
         overflow: scroll;
     }
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
+    .cover { min-height: auto;}
     .step {
         margin: 2.5rem 0;
         padding: 1rem 1rem;
@@ -234,7 +239,6 @@ circle:hover {
 .cover {
 	display: block;
 	width: 100%;
-	min-height: 100vh;
 }
 #exampleModal {
 	padding-right: 0 !important;
